@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="shortcut icon" href="/icons8-game-center-mail.ru-48.png" type="image/x-icon">
+    <link rel="stylesheet" href="test.css">
+    
+</head>
+<body>
+    <div class="screen">
+        <div class="full">
+            <h1 class="title">Guess the Number </h1>
+            <h2>1 To 10</h2>
+            <input type="text" id="randomNo" disabled>
+            <h2>Enter Three Guesses</h2>
+         <div class="inputs">
+            <input type="text" id="userOne" >
+            <input type="text" id="userTwo">
+            <input type="text" id="userThree">
+            <div class="points">
+                <div class="fpoint">
+                    <h3 id="firstPoints">500 <span>Rs</span></h3>
+                </div>
+                <div class="spoint">
+                    <h3 id="secondPoints">500 <span>Rs</span></h3>
+                </div>
+                <div class="tpoint">
+                    <h3 id="thirdPoints">500 <span>Rs</span></h3>
+                </div>
+                
+                
+            </div>
+         </div> 
+         <div class="buttons">
+            <button onclick="check()" class="checkBtn">Check</button>
+            <button onclick="reset()" class="resetBtn">Reset</button>
+            <h1 class="text" id="textWin"></h1>
+         </div>  
+        </div>
+    </div>
+  
+
+
+
+
+
+
+ <script src="test.js"></script>   
+</body>
+</html>
